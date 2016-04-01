@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class Helper</title>
+    <script type="text/javascript" src="tabletop.js"></script>
+    <script type="text/javascript" src="classhelper.js"></script>
+  </head>
+  <body>
+    Google spreadsheet url, Publish and then copy paste the url to below and click button<br />
+    <input type="text" id="txt_spreadsheetUrl"
+      value="https://docs.google.com/spreadsheets/d/104Ak_0VSTx0EoC4dJhDuF2jY75IAM8piCNY89zlnqCA/pubhtml"
+        style="width:700px"/>
+    <input type="button" id="btn_initSpreadsheet" onclick="initSpreadsheet();" value="initSpreadsheet" />
+    <textarea id="txt_results" style="width:700px; height:300px"></textarea>
+  </body>
+</html>
